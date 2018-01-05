@@ -42,5 +42,5 @@ func TestAll(t *testing.T) {
 }
 
 func TestA(t *testing.T) {
-	t.Logf("%d stocks in China Market", len(A()))
+	t.Logf("%d A-stocks in China Market", len(A()))
 }
